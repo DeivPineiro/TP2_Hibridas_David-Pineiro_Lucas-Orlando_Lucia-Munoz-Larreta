@@ -1,0 +1,145 @@
+html,
+
+/* Estilos para root */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Estilos para el main */
+main {
+  flex: 1;
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: white; 
+  position: absolute;
+  width: 100%;
+  clear: both;
+  text-align: center; 
+  padding: 10px;
+  margin-top: 10px;
+
+}
+
+/* Estilos generales para el contenedor del registro */
+.register-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Estilos para el título del registro */
+.register-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #006400;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el formulario de registro */
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para cada grupo de formulario */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Estilos para los campos de entrada del formulario */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilos para el botón de registro */
+.register-button {
+  background-color: #006400; 
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #004d00;
+}
+
+/* Estilos para el contenedor de inicio de sesión */
+.login-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título de inicio de sesión */
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #006400; 
+}
+
+/* Estilos para el mensaje de error */
+.alert {
+  margin-bottom: 20px;
+}
+
+/* Estilos para los campos de entrada del formulario */
+.form-control {
+  margin-bottom: 15px;
+}
+
+/* Estilos para el botón de inicio de sesión */
+.btn-primary {
+  background-color: #006400;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #004d00;
+}
+
+/* Estilos para el contenedor del buscador */
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la etiqueta del buscador */
+.search-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* Estilos para el campo de entrada del buscador */
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 200px;
+}
+
+/* Estilos adicionales para resaltar el campo de entrada al enfocar */
+.search-input:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
